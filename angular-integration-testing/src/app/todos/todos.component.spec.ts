@@ -7,7 +7,6 @@ import { TodosComponent } from './todos.component';
 import { TodoService } from './todo.service';
 import { Observable } from 'rxjs';
 import { findSafariExecutable } from 'selenium-webdriver/safari';
-import 'rxjs/add/observable/from';
 
 //NOTE: I've deliberately excluded this suite from running
 // because the test will fail. This is because we have not 
